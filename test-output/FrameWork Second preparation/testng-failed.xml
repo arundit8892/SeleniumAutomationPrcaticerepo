@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FrameWork Second preparation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testingFormPage(failed)">
+    <classes>
+      <class name="testCasesSecond.TC3Modified">
+        <methods>
+          <include name="formFilling" invocation-numbers="1 3"/>
+        </methods>
+      </class> <!-- testCasesSecond.TC3Modified -->
+    </classes>
+  </test> <!-- testingFormPage(failed) -->
+</suite> <!-- Failed suite [FrameWork Second preparation] -->

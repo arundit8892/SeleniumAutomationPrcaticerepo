@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FrameWork Second preparation">
+	<test name="testingFormPage">
+		<classes>
+			<class name="testCasesSecond.TC3Modified">
+				<methods>
+					<include name="presetUp"></include>
+					<include name="navigateToTestingFormPage"></include>
+					<include name="formFilling"></include>
+					<include name="alert"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>
